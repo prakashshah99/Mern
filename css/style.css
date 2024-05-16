@@ -1,0 +1,53 @@
+/* navbar CSS starts from here */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item li {
+  margin: 0 25px;
+  color: #4f5665;
+  font-family: rubik;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-container {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.signup-container a {
+  margin-right: 20px;
+  font-weight: 500;
+  font-family: rubik;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.signup-container button.signup {
+  color: #f53855;
+  border: 1px solid #f53855;
+  border-radius: 50px;
+  width: 150px;
+  height: 45px;
+  background: #fff;
+  font-family: rubik;
+  font-weight: 500;
+}
+
+/* navbar CSS ends from here */
